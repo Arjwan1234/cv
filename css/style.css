@@ -1,0 +1,147 @@
+body{
+  margin: 0px;
+  padding: 100px 20px 100px 20px;
+  background-color: rgb(110, 189, 245);
+}
+
+.info {
+  text-align: center;
+}
+
+.info img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.info h1 {
+  font-weight: bold;
+  color: rgb(0, 22, 95);
+  font-size: 40px;
+  margin-top: 20px;
+}
+.info h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+hr {
+  height: 5px;
+  background-color: rgb(1, 9, 37);
+  border: 0;
+}
+
+.education {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+}
+
+.education h2 {
+
+  color: rgb(0, 22, 95);
+
+  font-size: 30px;
+  font-weight: 900;
+}
+
+
+.education h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.projects {
+  padding: 40px 100px;
+}
+
+.projects h2 {
+  text-align: center;
+  color: rgb(0, 22, 95);
+
+  /* color: gray; */
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.projects .data-projects {
+  display: flex;
+  margin-top: 30px;
+}
+
+.projects .data-projects img {
+  width: 200px;
+  height: 150px;
+  margin-right: 30px;
+}
+
+.projects .data-projects h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.projects .data-projects p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.projects .data-projects a {
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.contact {
+  padding: 40px 100px;
+}
+
+.fab {
+  border: 1px solid white;
+  border-radius: 60%;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  font-size: 1.5em;
+ 
+  margin: 5px;
+  text-align: center;
+}
+
+.contact h2 {
+  /* color: gray; */
+  color: rgb(0, 22, 95);
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.contact div {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.contact div h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact div h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact div h3 i {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
